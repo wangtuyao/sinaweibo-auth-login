@@ -167,6 +167,15 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="weibo_auth\Constants.cs" />
+    <Compile Include="weibo_auth\provider\IWeiboAuthenticationProvider.cs" />
+    <Compile Include="weibo_auth\provider\WeiboApplyRedirectContext.cs" />
+    <Compile Include="weibo_auth\provider\WeiboAuthenticatedContext.cs" />
+    <Compile Include="weibo_auth\provider\WeiboAuthenticationProvider.cs" />
+    <Compile Include="weibo_auth\provider\WeiboReturnEndpointContext.cs" />
+    <Compile Include="weibo_auth\WeiboAuthenticationHandler.cs" />
+    <Compile Include="weibo_auth\WeiboAuthenticationMiddleware.cs" />
+    <Compile Include="weibo_auth\WeiboAuthenticationOptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
