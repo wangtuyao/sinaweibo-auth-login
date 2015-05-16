@@ -1,2 +1,2 @@
-hybrid
+sinaweibo auth login
 ======
